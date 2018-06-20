@@ -1,0 +1,67 @@
+header {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagens {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.usuario , .senha {
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+}
+.verificador {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.captcha {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+footer {
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer > button {
+    height: 40px;
+    width: 150px;
+}

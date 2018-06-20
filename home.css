@@ -1,0 +1,109 @@
+.container {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+body {
+    background-color: lightblue;
+}
+header {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+header > button {
+    height: 50px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.titulo > h1 {
+    font-size: 50px;
+    color: white;
+}
+.centro {
+    display: flex;
+    margin-left: 100px;
+}
+.centro > div {
+    margin: 10px;
+}
+.vender {
+    background-color: rgb(78, 78, 240);
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.vender > h2{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.pesquisa, .vender {
+    padding: 7px;
+    border-style: solid;
+    border-width: 1px;
+}
+.pesquisa {
+    background-color: gray;
+    width: 380px;
+    justify-content: center;
+    /* border-style: solid;
+    border-width: 1px; */
+}
+.search > input {
+    width: 300px;
+    height: 30px;
+}
+.search > button {
+    height: 37px;
+}
+.check-box {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa > h2 {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+}
+.login > .botoes {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.login > img {
+    margin: 10px;
+}
+.vender > h2 {
+    font-size: 30px;
+}
+.vender > p {
+    font-size: 18px;
+}
+.texto {
+    display: flex;
+    width: 85px;
+}
+.vender > .texto {
+    display: flex;
+    justify-content: center;
+
+}
